@@ -3,7 +3,7 @@ public class User {
     private String surname;
     private int age;
 
-    public String getName() {
+    public String getName(String petr) {
         return name;
     }
 
