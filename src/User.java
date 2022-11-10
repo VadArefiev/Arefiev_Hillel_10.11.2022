@@ -1,13 +1,15 @@
 public class User {
     private String name;
     private String surname;
+    private int age;
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public String setName(String name) {
         this.name = name;
+        return name;
     }
 
     public String getSurname() {
@@ -25,6 +27,4 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
-
-    private int age;
 }
